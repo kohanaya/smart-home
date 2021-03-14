@@ -30,7 +30,7 @@ public class SmartHomeHub {
     public void listDevices() {
         for (int i = 0; i < kitchenDevices.size(); i++) {
             Device d = kitchenDevices.get(i);
-            System.out.println(i + " - " + d.getName());
+            System.out.println(i + " - " + d.getDeviceName());
         }
     }
 
