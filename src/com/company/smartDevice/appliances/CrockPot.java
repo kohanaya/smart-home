@@ -1,6 +1,11 @@
 package com.company.smartDevice.appliances;
 
-public class CrockPot {
+import com.company.smartDevice.Device;
 
+public class CrockPot extends Device {
+
+    public CrockPot(String name) {
+        super(name);
+    }
 
 }

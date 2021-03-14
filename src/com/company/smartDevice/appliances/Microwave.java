@@ -1,4 +1,11 @@
 package com.company.smartDevice.appliances;
 
-public class Microwave {
+import com.company.smartDevice.Device;
+
+public class Microwave extends Device {
+
+    public Microwave(String name) {
+        super(name);
+    }
+
 }

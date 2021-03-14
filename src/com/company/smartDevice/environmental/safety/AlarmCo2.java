@@ -1,4 +1,11 @@
 package com.company.smartDevice.environmental.safety;
 
-public class AlarmCo2 {
+import com.company.smartDevice.Device;
+
+public class AlarmCo2 extends Device {
+
+    public AlarmCo2(String name) {
+        super(name);
+    }
+
 }

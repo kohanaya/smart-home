@@ -1,4 +1,10 @@
 package com.company.smartDevice.appliances;
 
-public class Stove {
+import com.company.smartDevice.Device;
+
+public class Stove extends Device {
+
+    public Stove(String name) {
+        super(name);
+    }
 }

@@ -1,4 +1,11 @@
 package com.company.smartDevice.appliances;
 
-public class CoffeeMaker {
+import com.company.smartDevice.Device;
+
+public class CoffeeMaker extends Device {
+
+    public CoffeeMaker(String name) {
+        super(name);
+    }
+
 }
